@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { message } from "antd/lib/index";
 
-const api = process.env.SERVER_URL || 'http://manishlokhande.com:3001';
+const api = process.env.SERVER_URL || 'http://3.133.109.175:3001/';
 //  const api = process.env.SERVER_URL || 'http://localhost:3001';
 //const api = process.env.SERVER_URL || 'http://dropboxapp.cmibwegni2.us-east-2.elasticbeanstalk.com';
 

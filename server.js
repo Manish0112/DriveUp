@@ -37,7 +37,7 @@ mongoose.connect(db,{ useNewUrlParser: true})
 
 app.use(cors(
     {
-        origin: ['https://localhost:3000','http://localhost:3000','http://manishlokhande.com:3000','http://manishlokhande.com','https://manishlokhande.com:3000','https://manishlokhande.com','http://127.0.0.1:3000','https://127.0.0.1:3000'],
+        origin: ['https://localhost:3000','http://localhost:3000','http://manishlokhande.com:3000','http://manishlokhande.com','https://manishlokhande.com:3000','https://manishlokhande.com','https://3.133.109.175:3000','http://3.133.109.175:3000'],
         credentials: true,
     }
 ));

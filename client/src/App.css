@@ -1,0 +1,39 @@
+#root, .App, .App > div, .fullHeight {
+    height: 100%;
+}
+
+.boxShadow, .ant-layout-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    margin: 20px !important;
+    background: white !important;
+    opacity: 1;
+
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+body {
+    background: #05133f;
+    background: -webkit-linear-gradient(to right, #05133f 0%, #187CD6 100%);
+    background: linear-gradient(to right, #05133f 0%, #3F6D97 100%);
+
+}
+
+html {
+    background: #001529;
+}
+
+.marginBottom0 {
+    margin-bottom: 0px !important;
+}
+
+.uploadArea {
+    width: 25%;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+}

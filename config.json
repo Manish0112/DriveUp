@@ -1,0 +1,9 @@
+{
+  "AWS_Uploaded_File_URL_LINK":"https://cmpe281dropboxfiles.s3-us-west-1.amazonaws.com/",
+  "AWS_ACCESS_KEY_ID":"AKIA6F3WO2ME77LHOTT7",
+  "AWS_SECRET_ACCESS_KEY":"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",
+  "AWS_REGION":"us-west-1",
+  "AWS_BUCKET_NAME":"cmpe281dropboxfiles",
+  "MongoURI": "mongodb+srv://manishDb:ty2TOCRijaDwJhUY@emaily-2r7gc.mongodb.net/test?retryWrites=true&w=majority"
+
+}

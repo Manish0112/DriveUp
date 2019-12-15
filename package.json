@@ -28,7 +28,7 @@
         "start": "node server.js",
         "test": "mocha --recursive tests --exit",
         "server": "nodemon server.js",
-        "client": "npm run start --prefix frontend",
+        "client": "npm run start --prefix client",
         "dev": "concurrently \"npm run server\" \"npm run client\""
     }
 }

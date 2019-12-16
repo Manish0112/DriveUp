@@ -1,4 +1,8 @@
 var express = require('express');
+
+const https = require('https');
+const fs = require('fs');
+
 var port = process.env.PORT || 3001;
 var app = express(),
     path = require('path'),
@@ -59,7 +63,15 @@ app.use('/instructor', instructor);
 app.use('/', student);
 app.use('/payment', payment);
 
-app.listen(port);
+
+var privateKey  = fs.readFileSync('sslcert/server.key', 'utf8');
+var certificate = fs.readFileSync('sslcert/server.crt', 'utf8');
+
+var credentials = {key: privateKey, cert: certificate};
+var httpsServer = https.createServer(credentials, app);
+httpsServer.listen(port);
+
+// app.listen(port);
 
 
 module.exports = app;
